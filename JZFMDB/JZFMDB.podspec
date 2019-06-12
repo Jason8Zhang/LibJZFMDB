@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source = { :path => '.' }
 
   s.ios.deployment_target    = '9.0'
-  s.ios.vendored_framework   = 'ios/JZFMDB.framework'
+  s.ios.vendored_framework   = 'JZFMDB.framework'
   s.source = { :git => 'https://github.com/Jason8Zhang/LibJZFMDB.git', :tag => s.version.to_s}
   s.ios.vendored_framework   = 'JZFMDB.framework'
 
